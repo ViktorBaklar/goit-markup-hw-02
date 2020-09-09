@@ -1,0 +1,72 @@
+* {
+  text-decoration: none;
+}
+
+.logo-part1 {
+  color: #2196f3;
+}
+
+.logo-part2 {
+  color: #000000;
+}
+
+.nav-links .link {
+  color: #212121;
+}
+
+.nav-links .link:active {
+  color: #2196f3;
+}
+
+.mail-top,
+.tel-top {
+  color: #757575;
+}
+
+.mail-top:hover {
+  color: #2196f3;
+}
+
+.main-title-box,
+footer {
+  background-color: #2f303a;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+button:hover {
+  background-color: #188ce8;
+}
+
+h2,
+h3 {
+  color: #212121;
+}
+
+p {
+  color: #757575;
+}
+
+.team-block {
+  background-color: #f5f4fa;
+}
+
+.team-card {
+  background-color: #ffffff;
+}
+
+.footer .location {
+  color: #ffffff;
+}
+
+.footer .mail,
+.tel {
+  color: rgba(255, 255, 255, 0.6);
+}

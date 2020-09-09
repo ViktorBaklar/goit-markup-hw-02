@@ -1,0 +1,59 @@
+* {
+  text-decoration: none;
+}
+
+.logo-part1 {
+  color: #2196f3;
+}
+
+.logo-part2 {
+  color: #000000;
+}
+
+.link {
+  color: #212121;
+}
+
+.nav-links .link:active {
+  color: #2196f3;
+}
+
+.mail-top,
+.tel-top {
+  color: #757575;
+}
+
+.mail-top:hover {
+  color: #2196f3;
+}
+
+.filter-item {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.filter-item .link:active {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+h2 {
+  color: #212121;
+}
+
+p {
+  color: #757575;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.footer-address .location {
+  color: #ffffff;
+}
+
+.footer-address .mail,
+.tel {
+  color: rgba(255, 255, 255, 0.6);
+}
