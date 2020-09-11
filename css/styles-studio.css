@@ -1,72 +1,239 @@
-* {
+.list {
+  list-style-type: none;
+}
+
+.link {
   text-decoration: none;
 }
 
-.logo-part1 {
-  color: #2196f3;
+address {
+  font-style: normal;
 }
 
-.logo-part2 {
-  color: #000000;
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
-.nav-links .link {
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 
-.nav-links .link:active {
+/* =========HEADER========= */
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.header-logo-web {
+  color: #2196f3;
+  text-transform: capitalize;
+}
+
+.header-logo-studio {
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation-link:active {
   color: #2196f3;
 }
 
-.mail-top,
-.tel-top {
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 
-.mail-top:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: #2196f3;
 }
 
-.main-title-box,
-footer {
+/* ========= END HEADER========= */
+
+/* ========= MAIN TITLE========= */
+.main-title-box {
+  background-color: #2f303a;
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.order-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* ========= END MAIN TITLE========= */
+
+/* ========= ADVANTAGES========= */
+.advantages-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.advantages-item-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ========= END ADVANTAGES========= */
+
+/* ========= WORK========= */
+
+/* ========= END WORK========= */
+
+/* ========= TEAM========= */
+
+.team-name,
+.team-position {
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-name {
+  font-weight: 500;
+  color: #212121;
+}
+
+.team-position {
+  font-weight: 500;
+  color: #757575;
+}
+
+/* ========= END TEAM========= */
+
+/* ========= FOOTER========= */
+.footer {
   background-color: #2f303a;
 }
 
-h1 {
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.footer-logo-web {
+  color: #2196f3;
+  text-transform: capitalize;
+}
+
+.footer-logo-studio {
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-button {
-  color: #ffffff;
-  background-color: #2196f3;
+.mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-button:hover {
-  background-color: #188ce8;
+.phone {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
+/* ========= END FOOTER========= */
 
-h2,
-h3 {
+/* ========= PORTFOLIO========= */
+/* ========= GALLERY========= */
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 
-p {
+.filter-btn:active {
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.gallery-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.gallery-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
   color: #757575;
 }
-
-.team-block {
-  background-color: #f5f4fa;
-}
-
-.team-card {
-  background-color: #ffffff;
-}
-
-.footer .location {
-  color: #ffffff;
-}
-
-.footer .mail,
-.tel {
-  color: rgba(255, 255, 255, 0.6);
-}
+/* ========= END GALLERY========= */
+/* ========= END PORTFOLIO========= */ ;
