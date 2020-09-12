@@ -1,3 +1,9 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --active-color: #2196f3;
+}
+
 .list {
   list-style-type: none;
 }
@@ -21,7 +27,7 @@ body {
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 /* =========HEADER========= */
@@ -48,24 +54,24 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .navigation-link:active {
-  color: #2196f3;
+  color: var(--active-color);
 }
 
 .contact-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #2196f3;
+  color: var(--active-color);
 }
 
 /* ========= END HEADER========= */
@@ -115,7 +121,7 @@ body {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .advantages-item-description {
@@ -123,7 +129,7 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 /* ========= END ADVANTAGES========= */
@@ -144,12 +150,12 @@ body {
 
 .team-name {
   font-weight: 500;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .team-position {
-  font-weight: 500;
-  color: #757575;
+  font-weight: 400;
+  color: var(--secondary-text-color);
 }
 
 /* ========= END TEAM========= */
@@ -210,7 +216,7 @@ body {
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .filter-btn:active {
@@ -225,7 +231,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .gallery-type {
@@ -233,7 +239,7 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 /* ========= END GALLERY========= */
 /* ========= END PORTFOLIO========= */ ;
